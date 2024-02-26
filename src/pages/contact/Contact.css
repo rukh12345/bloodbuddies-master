@@ -1,0 +1,223 @@
+   /* contact us css start  */
+
+   .wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+  
+  }
+  
+  .box1 {
+    width: 200px;
+    height: 300px;
+    align-items: center;
+  }
+  
+  @media(max-width:900px) {
+    .wrapper {
+        flex-direction: column;
+  
+    }
+  
+    .box1 {
+        width: 100%;
+        margin-top: 80px;
+    }
+  }
+  
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
+  .contact-header{
+    background-image: url(/public/images/contact3.png);
+    height:300px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    }
+  
+    .contact-map{
+     height:300px;
+     background-size: cover;
+     width: 100%;
+     background-position: center;
+     }
+  
+  .contact-text{
+    color: rgb(255, 255, 255);
+  }
+  .contact-title{
+  font-size: 45px;
+  }
+  .btn1{
+  color: rgb(255, 241, 241);
+  background-color: rgb(0, 0, 0);
+  }
+  
+  /* contact form css */
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  
+  }
+  .contact-form-init
+  {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+  }
+  .contact-form-init
+  {
+    max-width: 800px;
+    text-align: center;
+  }
+  .contact-form-init{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(3, 1, 0);
+  } 
+  
+  .contact-container
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .contact-container .contactInfo
+  {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .contact-container.contactInfo .box
+  {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+  }
+  
+  .contact-container .contactInfo .box 
+  .icon
+  {
+    min-width: 60px;
+    height: 60px;
+    background: #9582e7;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 10px;
+  }
+  
+  
+  .contact-container .contactInfo .box .text
+  {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: dark;
+    flex-direction: column;
+    font-weight: 300;
+  
+  }
+  .contact-container .contactInfo .box .text h3
+  {
+  font-weight: 500;
+  font-weight: 100px;
+  color: rgb(0, 0, 0);
+  }
+  .contactForm
+  {
+    width: 80%;
+    padding: 40px;
+    background-image: url(/public/images/contact2.png);
+    
+  }
+  .contactForm h2
+  {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+  }
+  .contactForm .inputbox
+  {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .contactForm .inputbox input,
+  .contactForm .inputbox textarea
+  {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  .contactForm .inputbox span
+  {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: 0.5s;
+    color: #666;
+  }
+  .contactForm .inputbox input:focus~span,
+  .contactForm .inputbox input:valid~span,
+  .contactForm .inputbox textarea:focus~span,
+  .contactForm .inputbox textarea:valid~span
+  {
+    color:#000;
+    font-size:12px;
+    transform: translateY(-20px);
+     
+  }
+  .contactForm .inputbox input[type="submit"]
+  {
+    width: 100px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .contactForm textarea
+  {
+  text-decoration: none;
+  }
+  @media (max-width: 991px)
+  {
+    .contact-form-init
+    {
+        padding: 50px;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .contact-container .contactInfo{
+        width: 100%;
+    }
+  }
+  
+                               /* contact us css end  */

@@ -1,0 +1,68 @@
+ /* DonorInfo :start */
+ .DonorInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    margin-top: 3rem;
+  }
+  .DonorInfo__container {
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 5px 7px -1px rgba(0, 0, 0, 0.75);
+  }
+  .DonorInfo__container h1 {
+    font-weight: 500;
+    font-size: 28px;
+    margin: 20px 0;
+    color: rgb(186, 31, 31);
+  }
+  
+  .DonorInfo__container input {
+    width: 80%;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+  }
+  .DonorInfo__container input:focus {
+    outline: none;
+  }
+ 
+ 
+  
+  /*Responsive*/
+  @media screen and (max-width: 768px) {
+    .DonorInfo__container {
+      width: 90%;
+    }
+    .DonorInfo__container h1 {
+      font-size: 24px;
+    }
+    .DonorInfo__container input {
+      width: 90%;
+    }
+}
+  @media screen and (max-width: 480px) {
+    .DonorInfo__container {
+      width: 90%;
+    }
+    .DonorInfo__container h1 {
+      font-size: 24px;
+    }
+    .DonorInfo__container input {
+      width: 90%;
+    }
+    
+    
+  }
+  /* DonorInfo :end */

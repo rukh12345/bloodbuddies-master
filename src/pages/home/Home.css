@@ -1,0 +1,284 @@
+                                             /* Home page css start  */
+
+                                            body{
+                                              min-height:100vh;
+                                              width:100vw;
+                                              overflow-x:hidden;
+                                              background-color:rgb(255, 255, 255);
+                                              }
+                                            .home1{
+                                              margin: 0px;
+                                              padding: 0px;
+                                            }  
+                                              
+                                            .home-text{
+                                                text-align: justify;
+                                                font-size: 20px;
+                                              }
+                                              .home-quote{
+                                                  background-image: linear-gradient(to bottom right, white,#FFE0E0);
+                                                  padding: 20px 70px;
+                                                  margin-top: 30px;
+                                                  text-align: center;
+                                              }
+                                              .home-video-con{
+                                                  margin-top: 30px;
+                                                  padding-left: 90px;
+                                                  text-align: center;
+                                              }
+                                              .video-text h2{
+                                                  margin-top: 25px;
+                                                  color: red;
+                                                  text-align: left;
+                                                  padding-left: 30px;
+                                              }
+                                              .video-text p{
+                                                  margin-top: 30px;
+                                                  font-size: 25px;
+                                                  text-align: justify;
+                                                  margin-left: 50px;
+                                                  margin-right: 50px;
+                                                  
+                                              }
+                                              /* search bar  */
+                                              
+                                              .s1{
+                                                background-image: url(/public/images/search-img.png);
+                                                background-size: cover;
+                                                background-position: center;
+                                                background-repeat: no-repeat;
+                                                position: relative;
+                                                height: 600px;    
+                                              }
+                                              .s2{
+                                              
+                                                margin-left: 40%;
+                                              
+                                              }
+                                              .row row1{
+                                              margin-left: 2000%;
+                                              }
+                                              .header{
+                                                margin: 0;
+                                                padding: 20px 0;
+                                              }
+                                              .header  h1{
+                                                color: white;
+                                              }
+                                              
+                                              .b1{
+                                                background-color:#BF0505;
+                                                
+                                                margin-left: 47%;
+                                              }
+                                              .b1:hover{
+                                                background-color: #fd0505;
+                                              }
+                                              .row1{
+                                                padding: 60px 100px 0px;
+                                              }
+                                              @media(max-width: 1024){
+                                                .row1{
+                                                    padding: 60px 150px 8px;
+                                                }
+                                              }
+                                              @media(max-width: 520){
+                                                .row1{
+                                                    padding: 0px;
+                                                }
+                                              }
+                                              /* media quire for home slider */
+                                              @media only screen and (max-width: 599px){
+                                                  .option{
+                                                      margin-bottom:400px;
+                                                      
+                                                    }
+                                                    .option h1{
+                                                     color: rgb(0, 0, 0);
+                                                      font-size:15px;
+                                                      text-align: left;
+                                                      width:100%;  
+                                                    }
+                                                    
+                                                    .option p{
+                                                      color: rgb(255, 255, 255);
+                                                      width: 50%;
+                                                       text-align: justify;
+                                                      font-size: 9px;
+                                                    }
+                                                     .item-button{
+                                                        text-align: left;
+                                                    }
+                                                    .item-button button {
+                                                        border-radius: 25px;
+                                                        color:white;
+                                                        background-color: rgb(153, 8, 8);
+                                                        text-align: center;
+                                                        padding: 5px 0px;
+                                                        /* margin-top: 15px; */
+                                                        width:28%;
+                                                       
+                                                    }
+                                                    .item-button button:hover{
+                                                        transform: translate(y);
+                                                        border:3px solid white;
+                                                    }
+                                              }
+                                              @media only screen and (min-width: 600px) and (max-width: 959px){
+                                                  .option{
+                                                      margin-bottom:340px;
+                                                      
+                                                    }
+                                                    .option h1{
+                                                     color: rgb(0, 0, 0);
+                                                      font-size:15px;
+                                                      text-align: left;
+                                                      width:100%;  
+                                                    }
+                                                    
+                                                    .option p{
+                                                      color: rgb(241, 0, 0);
+                                                      width: 50%;
+                                                       text-align: justify;
+                                                      font-size: 10px;
+                                                    }
+                                                     .item-button{
+                                                        text-align: left;
+                                                    }
+                                                    .item-button button {
+                                                        border-radius: 25px;
+                                                        color:white;
+                                                        background-color: rgb(153, 8, 8);
+                                                        text-align: center;
+                                                        padding: 5px 0px;
+                                                        margin-top: 15px;
+                                                        width:25%;
+                                                       
+                                                    }
+                                                    .item-button button:hover{
+                                                        transform: translate(y);
+                                                        border:3px solid white;
+                                                    }
+                                              }
+                                              @media only screen and (min-width: 768px){
+                                                  .option{
+                                                    margin-bottom:150px;
+                                                    
+                                                  }
+                                                  .option h1{
+                                                    color: rgb(0, 0, 0);
+                                                   margin-top: 10px;
+                                                    margin-bottom: 10px;
+                                                    font-size:70px;
+                                                    text-align: left;
+                                                    width:100%;  
+                                                  }
+                                                  
+                                                  .option p{
+                                                    color: rgb(0, 0, 0);
+                                                    width: 50%;
+                                                    margin-top: 1%;
+                                                    text-align: justify;
+                                                    font-size: 35px;
+                                                  }
+                                                   .item-button{
+                                                      text-align: left;
+                                                  }
+                                                  .item-button button{
+                                                      border-radius: 25px;
+                                                      color:white;
+                                                      background-color: rgb(153, 8, 8);
+                                                      text-align: center;
+                                                      padding: 10px 0px;
+                                                      margin-top: 35px;
+                                                      width: 15%;
+                                                     
+                                                  }
+                                                  .item-button button:hover{
+                                                      transform: translate(y);
+                                                      border:3px solid white;
+                                                  }
+                                                }
+                                              
+                                              @media only screen and (min-width: 768px){
+                                                  .option{
+                                                    margin-bottom:250px;
+                                                    
+                                                  }
+                                                  .option h1{
+                                                    color: rgb(255, 9, 9);
+                                                   margin-top: 10px;
+                                                    margin-bottom: 10px;
+                                                    font-size:30px;
+                                                    text-align: left;
+                                                    width:100%;  
+                                                  }
+                                                  
+                                                  .option p{
+                                                    color: rgb(0, 0, 0);
+                                                    width: 60%;
+                                                    margin-top: 1%;
+                                                    text-align: justify;
+                                                    font-size: 20px;
+                                                  }
+                                                   .item-button{
+                                                      text-align: left;
+                                                  }
+                                                  .item-button button{
+                                                      border-radius: 25px;
+                                                      color:white;
+                                                      background-color: rgb(153, 8, 8);
+                                                      text-align: center;
+                                                      padding: 10px 0px;
+                                                      margin-top:20px;
+                                                      width: 20%;
+                                                     
+                                                  }
+                                                  .item-button button:hover{
+                                                      transform: translate(y);
+                                                      border:3px solid white;
+                                                  }
+                                                }
+                                                  @media only screen and (min-width: 1280px) {
+                                                      .option{
+                                                          margin-bottom:70px;
+                                                          
+                                                        }
+                                                        .option h1{
+                                                          color: rgb(192, 39, 39);
+                                                         margin-top: 10px;
+                                                          margin-bottom: 10px;
+                                                          font-size:60px;
+                                                          text-align: left;
+                                                          width:100%;  
+                                                        }
+                                                        
+                                                        .option p{
+                                                          color: rgb(0, 0, 0);
+                                                          width: 50%;
+                                                          margin-top: 1%;
+                                                          text-align: justify;
+                                                          font-size: 30px;
+                                                        }
+                                                         .item-button{
+                                                            text-align: left;
+                                                        }
+                                                        .item-button button{
+                                                            border-radius: 26px;
+                                                            color:rgb(255, 255, 255);
+                                                            background-color: rgb(153, 8, 8);
+                                                            text-align: center;
+                                                            padding: 10px 0px;
+                                                            margin-top: 35px;
+                                                            width: 15%;
+                                                            border:4px solid rgb(0, 0, 0);
+                                              
+                                                           
+                                                        }
+                                                        .item-button button:hover{
+                                                            transform: translate(y);
+                                                        }
+                                                  }
+                                              
+                                              
+                                                                                         /*   home page css end  */

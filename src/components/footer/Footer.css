@@ -1,0 +1,78 @@
+  /* footer page css start */
+  
+  .f1{
+    background: url(/public/images/img1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0 80px 0 80px;
+    
+  }
+ .n1 ul li a {
+  color: white;
+  text-decoration: none;
+  }
+  .n1{ 
+    width: 25%;
+    padding: 0 15px;
+  }
+  .n1 .n2{
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-top: 15px;
+  }
+h5{
+  color: white;
+}  
+.n1 .logo1{
+  margin-top: 20%;
+}
+.icon1{
+    size: 900%;
+    padding:  50px;
+  }
+  .icon2{
+  width: 15%;
+    padding-top: 80px ;
+  }
+  .n1 ul li a:hover{
+color: rgb(248, 151, 151);
+padding-left: 8px;
+}
+   .social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(255,255,255,0.2);
+margin:0 5px 5px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+}
+.social-links a:hover{
+color: #24262b;
+background-color: #ffffff;
+}
+.social-links{
+padding-left: 200px;
+padding-top: 0px;
+}
+
+
+@media(max-width: 767px) {
+  .n1{
+    width: 50px;
+    margin-bottom: 30px;
+  }
+  }
+@media(max-width: 574px){
+  .n1{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+                                               /* footer page css end  */
+

@@ -1,0 +1,39 @@
+     /* register page css start */
+     .form-container{
+        background-image: url(/public/images/signup.png);
+        padding: 40px 0px;
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    
+      }
+      .form-css{
+        width: 60vh;
+        color: black;
+        padding: 20px 15px;
+        border: 2px black solid;
+        background-color: white;
+        margin-left: 30px;
+      }
+      table{      
+            border-collapse: seperate; 
+            border-spacing: 0 25px;
+            text-align: left;
+          }
+        table tr td{
+            padding: 10px;
+        }
+      .form-lable{
+        padding-right: 75px;
+      }
+    .submit-decore{
+      margin-top: 10px;
+      text-align: center;
+      border: 2px black solid;
+      border-radius: 43px;
+      padding: 5px 15px;
+      background-color: white;
+      margin-left: 110px;
+    }
+                                                      /* register page css end */

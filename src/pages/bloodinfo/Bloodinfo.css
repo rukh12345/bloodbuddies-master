@@ -1,0 +1,85 @@
+  /* blood info page css start */
+  .bloodinfo-image{
+    width: 100%;
+   
+}
+.bloodinfo-image-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 395px;
+}
+/* media qurie for top img of bloodinfo page*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bloodinfo-img{
+    margin-bottom:520px;
+  }
+  .bloodinfo-img h1{
+    color: rgb(255, 255, 255);
+    font-size:25px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .bloodinfo-img{
+    margin-bottom:510px;
+  
+  }
+  .bloodinfo-img h1{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .bloodinfo-img{
+    margin-bottom:495px;
+  
+  }
+  .bloodinfo-img h1{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .bloodinfo-img{
+    margin-bottom:480px;
+  
+  }
+  .bloodinfo-img h1{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+  .bloodinfo-img{
+    margin-bottom:460px;
+  
+  }
+  .bloodinfo-img h1{
+    color: rgb(255, 255, 255);
+    font-size:70px;
+    text-align: left;
+    width:100%;  
+  }
+}
+/* media quier for bloodinfo end  */
+
+                                    /* blood info page css end */

@@ -1,0 +1,105 @@
+
+                                                   /* about page css start  */
+  /* media qurie for top img of about page */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-img{
+      margin-bottom:530px;
+    }
+    .about-img h1{
+      color: rgb(255, 0, 0);
+      font-size:25px;
+      text-align: left;
+      width:100%;  
+      margin-top: 1rem;
+
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .about-img{
+      margin-bottom:510px;
+    
+    }
+    .about-img h1{
+      color: rgb(221, 19, 19);
+      font-size:45px;
+      text-align: left;
+      width:100%;  
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    .about-img{
+      margin-bottom:500px;
+    
+    }
+    .about-img h1{
+      color: rgb(221, 19, 19);
+      font-size:50px;
+      text-align: left;
+      width:100%;  
+    }
+  
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .about-img{
+      margin-bottom:500px;
+    
+    }
+    .about-img h1{
+      color: rgb(221, 19, 19);
+      font-size:50px;
+      text-align: left;
+      width:100%;  
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1201px) {
+    .about-img{
+      margin-bottom:470px;
+    
+    }
+    .about-img h1{
+      color: rgb(221, 19, 19);
+      font-size:70px;
+      text-align: left;
+      width:100%;  
+    }
+  }
+  /* about media qurie end  */
+  
+  
+  .about-image{
+      width: 100%;
+  }
+  .about-text{
+    text-align: justify;
+    font-size: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .about-text-1{
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  /* .navbar-text{
+    text-align: justify;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+  } */
+  .heading-text{
+    font-size: 35px;
+    font-family: 'Protest Riot', sans-serif;
+  }
+                                                     /* about page css end  */
